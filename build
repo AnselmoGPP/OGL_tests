@@ -1,0 +1,28 @@
+#!/bin/bash
+#chmod -x filename
+
+# Build and compile the visualizer library
+cd _BUILD
+#rm CMakeCache.txt cmake_install.cmake libMachLib.a Makefile
+#rm -r CMakeFiles
+cmake -G"Unix Makefiles" ..
+make
+
+#./src/1_Window/1_Window
+#./src/2_Triangle/2_Triangle
+#./src/3_Indexes/3_Indexes
+#./src/4_Shaders_Uniforms/4_Shaders_Uniforms
+#./src/5_More_attributes/5_More_attributes
+#cd src/6_Shader_class && ./6_Shader_class
+#cd src/7_Textures && ./7_Textures
+#cd src/8_Texture_units && ./8_Texture_units
+#cd src/9_Transformations && ./9_Transformations
+#cd src/10_3D_surface && ./10_3D_surface
+#cd src/11_3D_cube && ./11_3D_cube
+#cd src/12_3D_cubes && ./12_3D_cubes
+#cd src/13_Camera_round && ./13_Camera_round
+#cd src/14_Camera_walk && ./14_Camera_walk
+#cd src/15_Camera_walk_class && ./15_Camera_walk_class
+#cd src/16_Colors && ./16_Colors
+#cd src/17_Phong_1 && ./17_Phong_1
+cd src/18_Phong_2 && ./18_Phong_2

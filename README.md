@@ -1,9 +1,9 @@
-# Project template
+# OpenGL example programs
 
-<br>![sample HansVis window](https://raw.githubusercontent.com/AnselmoGPP/Template_project/master/more/Ned_Stark_mask.jpg)
+<br>![sample HansVis window](https://raw.githubusercontent.com/AnselmoGPP/OGL_tests/master/files/OGL_logo.png)
 
-This program is a project template.
+In the `src` folder you will find many OpenGL coding examples about textures, cameras, lighting, etc.
 
 Links:
 
-- [**Modern CMake**](https://sciencesoftcode.wordpress.com/2019/10/10/modern-cmake/)
+- [**OGL notes**](https://sciencesoftcode.wordpress.com/2020/09/02/learnopengl/)
