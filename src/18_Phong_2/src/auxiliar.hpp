@@ -21,7 +21,7 @@ class timerSet
     size_t frameCounter;
 
 public:
-    timerSet(int maxFPS = -1);
+    timerSet(int maxFPS = 0);
 
     void        startTime();            // Set starting time for the chronometer (startingTime)
     void        computeDeltaTime();     // Compute frame's duration (time between two calls to this)

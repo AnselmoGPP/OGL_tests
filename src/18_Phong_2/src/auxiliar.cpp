@@ -30,7 +30,7 @@ void timerSet::computeDeltaTime()
     currentTime = std::chrono::high_resolution_clock::now();
     deltaTime = std::chrono::duration_cast<std::chrono::microseconds>(currentTime - lastTime).count();
 
-    if(maxFPS >= 0)
+    if(maxFPS > 0)
     {
         int waitTime = 1000000/maxFPS - deltaTime;
         if(waitTime > 0)
